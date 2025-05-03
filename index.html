@@ -4,37 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mon Site Personnel</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f4f4f4;
-    }
-    header {
-      background-color: #333;
-      color: white;
-      padding: 1rem;
-      text-align: center;
-    }
-    nav a {
-      color: white;
-      margin: 0 1rem;
-      text-decoration: none;
-    }
-    main {
-      padding: 2rem;
-    }
-    footer {
-      background-color: #333;
-      color: white;
-      text-align: center;
-      padding: 1rem;
-      position: fixed;
-      width: 100%;
-      bottom: 0;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
@@ -42,7 +12,10 @@
     <nav>
       <a href="#accueil">Accueil</a>
       <a href="#apropos">À propos</a>
+      <a href="#galerie">Galerie</a>
+      <a href="#services">Services</a>
       <a href="#contact">Contact</a>
+      <a href="blog.html">Blog</a>
     </nav>
   </header>
 
@@ -55,6 +28,22 @@
     <section id="apropos">
       <h2>À propos de moi</h2>
       <p>Je suis passionné(e) par la technologie et la création de contenu web.</p>
+    </section>
+
+    <section id="galerie">
+      <h2>Galerie</h2>
+      <p>Voici quelques images représentatives de mes projets :</p>
+      <img src="https://via.placeholder.com/200" alt="Exemple 1">
+      <img src="https://via.placeholder.com/200" alt="Exemple 2">
+    </section>
+
+    <section id="services">
+      <h2>Services</h2>
+      <ul>
+        <li>Création de sites web</li>
+        <li>Design graphique</li>
+        <li>Consultation en informatique</li>
+      </ul>
     </section>
 
     <section id="contact">
